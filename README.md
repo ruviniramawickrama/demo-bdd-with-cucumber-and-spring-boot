@@ -1,6 +1,5 @@
 # Behavior-Driven Development (BDD) with Cucumber and Spring Boot
 
----
 This project highlights how to write **Behavior-Driven Development (BDD)** test cases with **Cucumber** and **Spring Boot**. It contains the implementation for a REST Endpoint designed to fetch book details based on a given book ID. We have written two BDD test cases to encompass scenarios where we call the endpoint with both an existing book ID and a non-existent one.
 
 ### What is Behavior-Driven Development (BDD)?
