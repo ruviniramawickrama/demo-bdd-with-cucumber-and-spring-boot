@@ -49,7 +49,7 @@ Before running the application and test cases, make sure the following list is i
 - When the application starts, Spring Boot automatically runs the contents of these files based on the `sql` and `jpa` properties mentioned in the `application.yml` file.
 
 `BookController.java`
-- REST Controller which contains `getBook` end point to retrieve Book details for the provided book id.
+- REST Controller which contains `getBook` end point to retrieve Book details for the provided book ID.
 
 `BookService.java`
 - Implemented by `BookServiceImpl.java` which is responsible for communicating with the repository class to retrieve Book details.
