@@ -74,7 +74,7 @@ Before running the application and test cases, make sure the following list is i
 - `@CucumberContextConfiguration` - When you run Cucumber tests in a Spring Boot application, you might want to load Spring application context and have access to Spring beans for your tests. The `@CucumberContextConfiguration` annotation allows you to specify the configuration classes that define the Spring context to be loaded for the test.
 - `@SpringBootTest` - Tells Spring Boot to bootstrap the entire application context, enabling full end-to-end testing by loading all the beans and configurations associated with the application. If your Spring Boot application includes a web server (like Tomcat) and you are testing HTTP endpoints, `@SpringBootTest` starts an embedded server during testing, allowing you to send requests and receive responses as if the application were running in a live environment.
 
-`CucumberTestRunner.java`
+`CucumberRunnerTest.java`
 - Contains the two annotations `@RunWith` and `@CucumberOptions`.
 - `@RunWith` - Used to specify the test runner class that will be used to execute the tests.
 - `@CucumberOptions` - Used to specify Cucumber related options such as location of feature files and their related steps files.
